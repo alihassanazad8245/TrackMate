@@ -79,12 +79,12 @@ TrackMate is built with **Flutter** and is designed around **local, offline use*
 
   <br/>
 
-  <h2>✨ Meet TrackMate</h2>
-  <p>From the first splash screen to your everyday productivity workspace.</p>
+ <h2>✨ Meet TrackMate</h2>
+<p>A little reminder that every day counts. Watch your year unfold, one dot at a time.</p>
 
-  <div align="center">
-  <img src="assets/branding/splash.jpeg" alt="TrackMate splash screen" width="72%" />
-  <p>From the first splash screen to your everyday productivity workspace.</p>
+<div align="center">
+  <img src="assets/branding/splash.jpeg" alt="TrackMate 365-day yearly progress screen" width="72%" />
+  <p><i>365 days. Every dot tells a story. See how much of your year has passed — and how much is still yours to make count.</i></p>
 </div>
 
 ## Features
