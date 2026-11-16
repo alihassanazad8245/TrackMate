@@ -1,296 +1,240 @@
+# TrackMate — Offline Personal Life & Productivity Suite
+
 <div align="center">
-
-<img src="assets/branding/logo.png" alt="TrackMate Logo" width="120" />
-
-# TrackMate
-
-**Personal Productivity, Habit Building & Expense Intelligence — Completely Offline**
-
-*A mindful, unified companion for Android designed to help you build lasting routines, understand your spending, safeguard private notes, and remember life's milestones with zero cloud dependency.*
-
-[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/YOUR_USERNAME/TrackMate/releases/latest)
-[![Framework](https://img.shields.io/badge/Built_With-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Privacy](https://img.shields.io/badge/Privacy-100%25_Offline-10B981?style=for-the-badge&logo=shield&logoColor=white)](#offline-architecture--privacy-first)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
-
-<br/>
-
-<a href="https://github.com/YOUR_USERNAME/TrackMate/releases/latest">
-  <img src="https://img.shields.io/badge/Download-Latest_APK-2563EB?style=for-the-badge&logo=android&logoColor=white" height="38" alt="Download APK" />
-</a>
-&nbsp;&nbsp;
-<a href="#core-capabilities">
-  <img src="https://img.shields.io/badge/Explore-Features-0F172A?style=for-the-badge" height="38" alt="Explore Features" />
-</a>
-&nbsp;&nbsp;
-<a href="#quick-start--installation">
-  <img src="https://img.shields.io/badge/Installation-Guide-334155?style=for-the-badge" height="38" alt="Installation Guide" />
-</a>
-
-<br/><br/>
-
-<img src="assets/branding/splash.png" alt="TrackMate Splash Interface" width="260" style="border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);" />
-
+  <img src="release_documentation/assets/branding/logo.png" alt="TrackMate Logo" width="140" />
+  <br />
+  <p><strong>A 100% offline-first productivity platform for Android.</strong></p>
+  <p>Habits • Expenses & Vector PDF Reports • Markdown Notes • PIN-Locked Vault & Password Manager • Celebratory Date Tracker • Ambient Focus Timer</p>
+  
+  <p>
+    <a href="https://github.com/YOUR_USERNAME/TrackMate/releases/latest">
+      <img src="https://img.shields.io/badge/Download-Latest_APK-blue?style=for-the-badge&logo=android" alt="Download APK" />
+    </a>
+  </p>
 </div>
 
 ---
 
-## Executive Summary
+## Overview
 
-Modern mobile productivity is often fragmented across multiple subscription apps that require permanent internet connectivity, cloud accounts, and invasive analytics.
+**TrackMate** is an offline personal management suite designed for complete privacy and control. Unlike cloud-dependent productivity applications, TrackMate stores all databases, configurations, notes, and records exclusively on the local Android filesystem.
 
-**TrackMate** unifies your essential daily productivity systems into a single, high-performance Flutter mobile application that operates **100% offline**:
-
-1. **Habit Engine**: Daily tracking, completion rings, weekly matrices, and streak analytics.
-2. **Expense Intelligence**: Dual-tier logging (Food vs. Extra), annual rollovers, multi-year history, and vector PDF exports.
-3. **Digital Notebook & Checklists**: Color-coded categorization, markdown checklists, and recycle bin safeguards.
-4. **PIN-Protected Secret Vault**: Dedicated private notes and credentials manager locked behind a local 4-digit PIN.
-5. **Date Tracker**: Birthday and anniversary alerts with milestone countdowns, celebratory visual accents, and scheduled system notifications.
-6. **Focus Stopwatch & Ambient Audio**: Deep focus timer paired with 6 offline binaural and nature soundscapes.
-
----
-
-## Why Choose TrackMate?
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛡️ 100% Offline & Private</h3>
-      <p>Your habits, finances, credentials, and personal notes never leave your smartphone. TrackMate runs without accounts, internet access, or remote analytics.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎯 Habit Consistency Engine</h3>
-      <p>Transform daily ambitions into automatic routines. Visualize your consistency with streak counters, weekly progress rings, and historical analytics.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💰 Dual-Tier Expense Tracking</h3>
-      <p>Distinguish between daily food sustenance and discretionary extra expenses. Navigate consecutive years automatically with permanent archived history.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔒 Hardware-Local Secret Vault</h3>
-      <p>Keep sensitive notes and credentials isolated from regular notes. Protected by an on-screen numpad lock with hashed local authentication.</p>
-    </td>
-  </tr>
-</table>
+There are no remote accounts, no cloud servers, no analytics trackers, and no background telemetry services. Everything functions completely offline.
 
 ---
 
 ## Core Capabilities
 
-### 1. Habit Tracker & Consistency Engine
+### 1. Habit Tracker & Consistency Analytics
+- **Granular Scheduling**: Configure custom frequencies (Daily, specific days of the week, or weekly targets).
+- **Streak Calculations**: Tracks current active streaks alongside best lifetime historical streaks.
+- **Visual Analytics**: Interactive performance rings, segmented weekly/monthly review grids, and daily completion indicators.
 
-Track daily commitments, celebrate unbroken streaks, and gain meaningful insight into your personal discipline over time.
-
-* **Daily & Scheduled Frequencies**: Configure habits for everyday execution or targeted weekdays.
-* **Streak & Completion Metrics**: Real-time current streak indicators (🔥), personal best records, and percentage-based completion rings.
-* **Analytical Review**: Review weekly grids and monthly trends to pinpoint routine lapses and peak productivity days.
-* **Recycle Bin Protection**: Accidentally deleted habits remain recoverable from the Activity Log recycle bin.
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Habits Overview" /><br/>
-      <em>Daily Habit Routines & Progress Rings</em>
-    </td>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Habit Analytics" /><br/>
-      <em>Weekly & Monthly Consistency Analytics</em>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <strong>Habits Dashboard</strong><br />
+        <img src="release_documentation/assets/screenshots/01_habits_dashboard.png" alt="Habits Dashboard" width="320" />
+      </td>
+      <td align="center" width="50%">
+        <strong>Habit Analytics & Streaks</strong><br />
+        <img src="release_documentation/assets/screenshots/02_habit_analytics.png" alt="Habit Analytics" width="320" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-### 2. Expense Tracker & Financial Intelligence
+### 2. Dual-Tier Expense Manager & High-Resolution Vector PDF Export
+- **Categorized Budgeting**: Isolates essential daily **Food Expenses** from discretionary **Extra Expenses**.
+- **Multi-Year Navigation**: Organizes records cleanly across years and months with automatic rollover calculations.
+- **Analytical Charts**: Visual monthly spending comparisons and spending distribution metrics.
+- **Vector PDF Statements**: Generates print-ready vector PDF financial statements with embedded monthly expenditure bar charts directly on device.
 
-Take full control over personal cash flow with a structured, two-tier logging system designed for everyday financial awareness.
-
-* **Two-Tier Expenditure System**:
-  * **Food Expenses**: Quick daily sustenance tracking with instant sum calculations.
-  * **Extra Expenses**: Itemized discretionary purchases with category titles, numeric amounts, and custom notes.
-* **Automatic Year Rollover**: Intelligently detects the calendar year (2026, 2027, and beyond) while permanently preserving past years' archives.
-* **Analytical Dual-Line Graph**: Side-by-side comparison of Food vs. Extra spending with clean, rounded monetary Y-axis intervals (e.g. 500, 1,000, 2,500, 5,000).
-* **Vector PDF Generation**: Multi-page report generation including a yearly summary header, spending trend chart, 12-month breakdown table, and daily itemized logs.
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Expense Overview" /><br/>
-      <em>Annual Spending Overview & Breakdown</em>
-    </td>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Expense Analytics" /><br/>
-      <em>Interactive Spending Analytics & Trends</em>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <strong>Annual Expense Overview</strong><br />
+        <img src="release_documentation/assets/screenshots/03_expense_overview.png" alt="Expense Overview" width="320" />
+      </td>
+      <td align="center" width="50%">
+        <strong>Monthly Breakdown & Entry</strong><br />
+        <img src="release_documentation/assets/screenshots/04_monthly_breakdown.png" alt="Monthly Breakdown" width="320" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <strong>Expense Analytics & PDF Export Preview</strong><br />
+        <img src="release_documentation/assets/screenshots/05_expense_analytics.png" alt="Expense Analytics" width="320" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
 ### 3. Digital Notes & Interactive Checklists
+- **Markdown & Monospace Mode**: Built-in support for monospace fonts, headers, and organized code/note formatting.
+- **Interactive Checklists**: Seamlessly toggle between freeform text notes and interactive task list checkboxes.
+- **Category Organization**: Categorize notes across Study, Work, Personal, and Ideas tags with search indexing.
 
-A flexible, lightweight digital notebook designed for quick thought capture, work projects, and recurring checklists.
-
-* **Color-Coded Categories**: Organize thoughts across Personal, Study, Work, Ideas, Health, or custom tags.
-* **Interactive Task Mode**: Toggle standard notes into interactive checklists with one-tap completion.
-* **Pinned Notes**: Keep high-priority reminders anchored to the top of your workspace.
-* **Trash Recovery**: Restore discarded notes seamlessly via the built-in note recovery screen.
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Notes Collection" /><br/>
-      <em>Categorized Personal Digital Notes</em>
-    </td>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Task Checklists" /><br/>
-      <em>Interactive Checklists & Action Items</em>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <strong>Notes List & Filter Tags</strong><br />
+        <img src="release_documentation/assets/screenshots/06_digital_notes.png" alt="Digital Notes" width="320" />
+      </td>
+      <td align="center" width="50%">
+        <strong>Note Detail & Checklist Editor</strong><br />
+        <img src="release_documentation/assets/screenshots/07_note_detail.png" alt="Note Editor" width="320" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-### 4. Secret Notes & Credentials Vault
+### 4. Hardware-Isolated Secret Notes & Password Vault
+- **SHA-256 PIN Verification**: Private records remain inaccessible behind a dedicated 4-digit PIN authentication lock.
+- **Change PIN Protocol**: Secure in-app PIN alteration verifying the current hash before updating.
+- **Isolated Storage Keys**: Secret notes and password records are stored under isolated local storage keys, inaccessible from the standard notes interface.
+- **Offline Password Manager**: Group credentials by service with multi-account support and one-tap copy actions.
 
-A dedicated, isolated vault for sensitive information that requires strict privacy and authentication.
-
-* **4-Digit PIN Security**: Gated by a custom on-screen numeric keypad; hashed and verified entirely on-device.
-* **Change PIN Facility**: Secure workflow requiring verification of the existing PIN before updating credentials.
-* **Password Manager**: Store account identifiers, login usernames, passwords, and service URLs with single-tap clipboard copy and visibility toggles.
-* **Complete Isolation**: Vault entries are segregated from regular notes and excluded from unauthenticated views.
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Vault Lock Screen" /><br/>
-      <em>PIN Security Lock Screen</em>
-    </td>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Secret Credentials Vault" /><br/>
-      <em>Encrypted Local Credentials & Vault</em>
-    </td>
-  </tr>
-</table>
-
----
-
-### 5. Date Tracker & Milestone Reminders
-
-Never miss an important life event. Track birthdays, anniversaries, and milestones with dynamic countdowns and visual alerts.
-
-* **Event Categories**: Dedicated classification for Birthdays (🎂), Anniversaries (🥂), and Milestones (📅).
-* **Dynamic Time Engine**: Automatically calculates upcoming occurrences, milestone years, or days elapsed.
-* **Celebratory Visual Hierarchy**:
-  * **Today**: Vibrant ruby-rose accent border, warm celebratory glow, and festive blush background.
-  * **Tomorrow**: Calm sky-blue accent border with soft oceanic tinting.
-* **In-App Marquee & System Alarms**: Auto-scrolling title display prevents text truncation, complemented by scheduled Android alarm notifications.
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Date Tracker Events" /><br/>
-      <em>Upcoming Events & Milestone Badges</em>
-    </td>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Celebratory Notification" /><br/>
-      <em>Today & Tomorrow Celebratory Alerts</em>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <strong>Vault PIN Authentication Screen</strong><br />
+        <img src="release_documentation/assets/screenshots/08_secret_vault_lock.png" alt="Secret Vault Lock" width="320" />
+      </td>
+      <td align="center" width="50%">
+        <strong>Decrypted Secret Notes Vault</strong><br />
+        <img src="release_documentation/assets/screenshots/09_secret_notes_vault.png" alt="Secret Notes Vault" width="320" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2">
+        <strong>Offline Password Manager</strong><br />
+        <img src="release_documentation/assets/screenshots/10_password_manager.png" alt="Password Manager" width="320" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-### 6. Focus Stopwatch & Offline Ambient Audio
+### 5. Celebratory Date Tracker
+- **Smart Upcoming Countdown**: Displays remaining days until birthdays, anniversaries, and milestones.
+- **Celebration Themes**: Adaptive emerald themes for tomorrow's events and ruby themes for today's celebrations.
+- **Smooth Marquee Alerts**: Automatic scrolling text animations for long event names so titles are never cut off.
 
-Enhance deep work sessions with a built-in focus timer supported by native, offline ambient soundscapes.
-
-* **Integrated Stopwatch**: Clean, non-intrusive focus timer to track study sessions and work blocks.
-* **Offline Audio Soundscapes**: 6 embedded audio environments that require zero network streaming:
-  * 🌲 *Calm Forest Nature*
-  * 🧠 *Focus Binaural 40Hz*
-  * 🍃 *Forest ASMR Break*
-  * 🧘 *Meditation Earth Resonance*
-  * 🕊️ *Overthinking Relief*
-  * 🌧️ *Rain & Thunderstorm Focus*
-
----
-
-## Offline Architecture & Privacy First
-
-> [!IMPORTANT]
-> **TrackMate does not have a backend server, cloud database, or third-party tracking SDK.**
-
-* **Local-First Storage**: All application data is persisted directly to internal device storage using hardened SharedPreferences and local key-value stores.
-* **Zero Telemetry**: No tracking identifiers, device fingerprints, or advertising beacons exist within the application.
-* **Portable Encrypted Backup**: Generate an encrypted JSON archive of all your habits, expenses, notes, and dates directly to your local file system, allowing effortless migration between devices.
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <strong>Celebratory Date Tracker</strong><br />
+        <img src="release_documentation/assets/screenshots/11_date_tracker.png" alt="Date Tracker" width="320" />
+      </td>
+      <td align="center" width="50%">
+        <strong>Focus Timer & Soundscapes</strong><br />
+        <img src="release_documentation/assets/screenshots/12_focus_and_soundscapes.png" alt="Focus Timer" width="320" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-## The Journey Behind TrackMate
-
-TrackMate represents **4 to 6 months of dedicated personal engineering**, beginning as an academic project in Semester 6 and evolving through rigorous iterations across subsequent terms and academic breaks.
-
-Frustrated by fragmented mobile apps that enforce monthly subscriptions and cloud dependencies for basic productivity, TrackMate was built to provide a cohesive, aesthetic, and completely offline alternative. Every screen, animation curve, custom painter, and data model was crafted to balance responsiveness, visual elegance, and uncompromising privacy.
+### 6. Focus Timer & Offline Ambient Soundscapes
+- **Pomodoro Focus Sessions**: Configurable interval timer directly on the profile dashboard.
+- **6 Bundled Offline Soundscapes**:
+  - Deep Focus (40Hz Binaural)
+  - Rain & Thunderstorm
+  - Overthinking Relief
+  - Zen Earth Resonance
+  - Calm Forest Nature
+  - Forest ASMR Stream
 
 ---
 
-## Quick Start & Installation
+### 7. Encrypted Local Backup & Restoration
+- **Zero Cloud Footprint**: Generates an encrypted backup file containing your complete application state.
+- **Restoration Integrity**: Import your backup archive on any compatible device to restore all records instantly.
 
-Install the official pre-compiled Android package in a few straightforward steps:
+<div align="center">
+  <img src="release_documentation/assets/screenshots/13_offline_backup.png" alt="Data Backup & Restore" width="320" />
+</div>
 
-```markdown
-1. Navigate to the GitHub Releases page:
-   https://github.com/YOUR_USERNAME/TrackMate/releases/latest
+---
 
-2. Download the latest release file: app-debug.apk (or trackmate-v1.0.apk)
+## Why Choose TrackMate?
 
-3. Tap the downloaded APK file on your Android smartphone.
+| Evaluation Criteria | TrackMate | Mainstream Cloud Apps |
+| :--- | :--- | :--- |
+| **Data Storage** | 100% On-Device Local Storage | Remote Cloud Database |
+| **Telemetry & Tracking** | **Zero** analytics, Zero logs | Continuous usage tracking |
+| **Account Creation** | **None Required** — Instant local setup | Mandatory email/phone sign-up |
+| **Offline Reliability** | Complete functionality without Internet | Degraded or inaccessible offline |
+| **Document Export** | High-resolution Vector PDF generator | Paywalled or restricted exports |
+| **Privacy Security** | Local SHA-256 PIN Vault | Subject to server leaks & breaches |
 
-4. If prompted, permit your browser or file manager to install packages from this source.
+---
 
-5. Open TrackMate and personalize your local profile name to begin.
+## Installation
+
+1. Navigate to the **[Releases](https://github.com/YOUR_USERNAME/TrackMate/releases/latest)** page.
+2. Download the latest `trackmate-release.apk`.
+3. Open the downloaded file on your Android device.
+4. When prompted, permit installation from your browser or file manager.
+5. Launch TrackMate and manage your daily life with total privacy.
+
+---
+
+## Architecture & Technology Stack
+
+- **Framework**: Flutter 3.x / Dart
+- **UI Engine**: Material Design 3 with custom light and dark palettes
+- **State Architecture**: Reactive multi-provider state isolation (`Provider`)
+- **Persistence Layer**: Local Android filesystem storage via `SharedPreferences`
+- **Document Rendering**: `pdf` and `printing` vector graphic document engine
+- **Audio Pipeline**: Bundled offline audio playback via `audioplayers`
+
+---
+
+## Repository Structure
+
+```
+TrackMate/
+├── assets/
+│   ├── branding/
+│   │   ├── app_icon.png
+│   │   ├── logo.png
+│   │   └── splash.png
+│   └── screenshots/
+│       ├── 01_habits_dashboard.png
+│       ├── 02_habit_analytics.png
+│       ├── 03_expense_overview.png
+│       ├── 04_monthly_breakdown.png
+│       ├── 05_expense_analytics.png
+│       ├── 06_digital_notes.png
+│       ├── 07_note_detail.png
+│       ├── 08_secret_vault_lock.png
+│       ├── 09_secret_notes_vault.png
+│       ├── 10_password_manager.png
+│       ├── 11_date_tracker.png
+│       ├── 12_focus_and_soundscapes.png
+│       └── 13_offline_backup.png
+├── README.md
+└── LICENSE
 ```
 
 ---
 
-## Technology Stack
+## License
 
-* **Platform**: Android (API Level 21+)
-* **Framework**: Flutter & Dart
-* **Design Philosophy**: Custom Material 3 with Poppins Typography
-* **State Management**: Reactive Provider Pattern
-* **Document Engine**: Vector-based PDF generation (`pdf` & `printing`)
-* **Audio Engine**: Embedded local asset playback (`audioplayers`)
-* **Persistence**: Local device storage (`shared_preferences`)
-
----
-
-## Verification & Transparency
-
-| Module | Verification Status | Storage Mode |
-| :--- | :---: | :--- |
-| **Habit Tracker** | ✅ Verified | 100% Local Device Storage |
-| **Expense Tracker** | ✅ Verified | 100% Local Device Storage |
-| **Expense PDF Export** | ✅ Verified | Native Device Vector Rendering |
-| **Digital Notes & Tasks** | ✅ Verified | 100% Local Device Storage |
-| **PIN Secret Notes** | ✅ Verified | 100% Local (Hashed Authentication) |
-| **Password Manager** | ✅ Verified | 100% Local Device Storage |
-| **Date Tracker** | ✅ Verified | Local SQLite / Preferences |
-| **Scheduled Alarms** | ✅ Verified | Android AlarmManager / Notifications |
-| **Ambient Soundscapes** | ✅ Verified | Embedded Offline Audio Assets |
-| **Local Backup/Restore**| ✅ Verified | Local JSON File Export |
-| **Cloud Authentication**| ❌ Excluded | Intentionally Offline-First (No Google/Firebase Auth) |
-
----
-
-<div align="center">
-
-**TrackMate** — Take control of your habits, finances, and life routines.
-
-[**Download Latest Release**](https://github.com/YOUR_USERNAME/TrackMate/releases/latest) • [**Report an Issue**](https://github.com/YOUR_USERNAME/TrackMate/issues)
-
-</div>
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
