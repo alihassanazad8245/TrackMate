@@ -1,3 +1,5 @@
+# TrackMate — Offline Personal Life & Productivity Suite
+
 <div align="center">
 
   <img src="assets/branding/logo.png" alt="TrackMate logo" width="132" />
