@@ -82,11 +82,10 @@ TrackMate is built with **Flutter** and is designed around **local, offline use*
   <h2>✨ Meet TrackMate</h2>
   <p>From the first splash screen to your everyday productivity workspace.</p>
 
-  <img
-    src="assets/branding/splash.jpeg"
-    alt="TrackMate app splash screen"
-    width="320"
-  />
+  <div align="center">
+  <img src="assets/branding/splash.jpeg" alt="TrackMate splash screen" width="72%" />
+  <p>From the first splash screen to your everyday productivity workspace.</p>
+</div>
 
 ## Features
 
