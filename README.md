@@ -1,296 +1,254 @@
 <div align="center">
 
-<img src="assets/branding/logo.png" alt="TrackMate Logo" width="120" />
+  <img src="assets/branding/logo.png" alt="TrackMate logo" width="132" />
 
-# TrackMate
+  <h1>TrackMate</h1>
+  <h3>Your habits, expenses, notes and important moments — in one place.</h3>
+  <p><strong>A personal productivity companion for Android, designed around local storage and offline convenience.</strong></p>
 
-**Personal Productivity, Habit Building & Expense Intelligence — Completely Offline**
+  <p>
+    <a href="https://github.com/alihassanazad8245/TrackMate/releases/latest">
+      <img src="https://img.shields.io/badge/Download-Latest%20APK-238636?style=for-the-badge&logo=android&logoColor=white" alt="Download latest APK" />
+    </a>
+    &nbsp;
+    <a href="#features">
+      <img src="https://img.shields.io/badge/Explore-Features-334155?style=for-the-badge" alt="Explore features" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/alihassanazad8245/TrackMate/issues">
+      <img src="https://img.shields.io/badge/Support-Report%20an%20Issue-475569?style=for-the-badge&logo=github" alt="Report an issue" />
+    </a>
+  </p>
 
-*A mindful, unified companion for Android designed to help you build lasting routines, understand your spending, safeguard private notes, and remember life's milestones with zero cloud dependency.*
-
-[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/YOUR_USERNAME/TrackMate/releases/latest)
-[![Framework](https://img.shields.io/badge/Built_With-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Privacy](https://img.shields.io/badge/Privacy-100%25_Offline-10B981?style=for-the-badge&logo=shield&logoColor=white)](#offline-architecture--privacy-first)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
-
-<br/>
-
-<a href="https://github.com/YOUR_USERNAME/TrackMate/releases/latest">
-  <img src="https://img.shields.io/badge/Download-Latest_APK-2563EB?style=for-the-badge&logo=android&logoColor=white" height="38" alt="Download APK" />
-</a>
-&nbsp;&nbsp;
-<a href="#core-capabilities">
-  <img src="https://img.shields.io/badge/Explore-Features-0F172A?style=for-the-badge" height="38" alt="Explore Features" />
-</a>
-&nbsp;&nbsp;
-<a href="#quick-start--installation">
-  <img src="https://img.shields.io/badge/Installation-Guide-334155?style=for-the-badge" height="38" alt="Installation Guide" />
-</a>
-
-<br/><br/>
-
-<img src="assets/branding/splash.png" alt="TrackMate Splash Interface" width="260" style="border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.15);" />
+  <p>
+    <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
+    <img src="https://img.shields.io/badge/Built%20with-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+    <img src="https://img.shields.io/badge/Approach-Offline--first-0F766E?style=flat-square&logo=shield&logoColor=white" alt="Offline first" />
+  </p>
 
 </div>
 
 ---
 
-## Executive Summary
+## About TrackMate
 
-Modern mobile productivity is often fragmented across multiple subscription apps that require permanent internet connectivity, cloud accounts, and invasive analytics.
+TrackMate brings several everyday organization tools together in one Android application. Instead of switching between separate apps to manage routines, spending, notes, passwords and important dates, you can keep these personal tools together in one place.
 
-**TrackMate** unifies your essential daily productivity systems into a single, high-performance Flutter mobile application that operates **100% offline**:
+The focus is practical: make it easier to build consistent habits, understand where your money goes, keep useful information organized, and remember the moments that matter.
 
-1. **Habit Engine**: Daily tracking, completion rings, weekly matrices, and streak analytics.
-2. **Expense Intelligence**: Dual-tier logging (Food vs. Extra), annual rollovers, multi-year history, and vector PDF exports.
-3. **Digital Notebook & Checklists**: Color-coded categorization, markdown checklists, and recycle bin safeguards.
-4. **PIN-Protected Secret Vault**: Dedicated private notes and credentials manager locked behind a local 4-digit PIN.
-5. **Date Tracker**: Birthday and anniversary alerts with milestone countdowns, celebratory visual accents, and scheduled system notifications.
-6. **Focus Stopwatch & Ambient Audio**: Deep focus timer paired with 6 offline binaural and nature soundscapes.
+TrackMate is built with **Flutter** and is designed around **local, offline use**. Its core personal records are stored on the device, so supported features remain useful without a constant internet connection.
 
----
+> **One app for the little things that make everyday life easier to manage.**
 
-## Why Choose TrackMate?
+## Why TrackMate?
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛡️ 100% Offline & Private</h3>
-      <p>Your habits, finances, credentials, and personal notes never leave your smartphone. TrackMate runs without accounts, internet access, or remote analytics.</p>
+      <h3>🧭 Less app switching</h3>
+      <p>Habits, expenses, notes, private information, dates and focus tools are brought together in one personal workspace.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎯 Habit Consistency Engine</h3>
-      <p>Transform daily ambitions into automatic routines. Visualize your consistency with streak counters, weekly progress rings, and historical analytics.</p>
+      <h3>📴 Offline-friendly by design</h3>
+      <p>Use supported features and access locally saved information without depending on a continuous internet connection.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>💰 Dual-Tier Expense Tracking</h3>
-      <p>Distinguish between daily food sustenance and discretionary extra expenses. Navigate consecutive years automatically with permanent archived history.</p>
+      <h3>📈 See your progress</h3>
+      <p>Weekly and monthly habit views help turn a list of intentions into a clearer picture of your consistency over time.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🔒 Hardware-Local Secret Vault</h3>
-      <p>Keep sensitive notes and credentials isolated from regular notes. Protected by an on-screen numpad lock with hashed local authentication.</p>
+      <h3>🗂️ Keep information organized</h3>
+      <p>Save everyday notes, track expenses, store important dates and keep selected private information in dedicated areas.</p>
     </td>
   </tr>
-</table>
-
----
-
-## Core Capabilities
-
-### 1. Habit Tracker & Consistency Engine
-
-Track daily commitments, celebrate unbroken streaks, and gain meaningful insight into your personal discipline over time.
-
-* **Daily & Scheduled Frequencies**: Configure habits for everyday execution or targeted weekdays.
-* **Streak & Completion Metrics**: Real-time current streak indicators (🔥), personal best records, and percentage-based completion rings.
-* **Analytical Review**: Review weekly grids and monthly trends to pinpoint routine lapses and peak productivity days.
-* **Recycle Bin Protection**: Accidentally deleted habits remain recoverable from the Activity Log recycle bin.
-
-<table>
   <tr>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Habits Overview" /><br/>
-      <em>Daily Habit Routines & Progress Rings</em>
+    <td width="50%" valign="top">
+      <h3>📄 Take your records further</h3>
+      <p>Generate PDF reports for supported expense and habit information, making your progress easier to review and keep.</p>
     </td>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Habit Analytics" /><br/>
-      <em>Weekly & Monthly Consistency Analytics</em>
-    </td>
-  </tr>
-</table>
-
----
-
-### 2. Expense Tracker & Financial Intelligence
-
-Take full control over personal cash flow with a structured, two-tier logging system designed for everyday financial awareness.
-
-* **Two-Tier Expenditure System**:
-  * **Food Expenses**: Quick daily sustenance tracking with instant sum calculations.
-  * **Extra Expenses**: Itemized discretionary purchases with category titles, numeric amounts, and custom notes.
-* **Automatic Year Rollover**: Intelligently detects the calendar year (2026, 2027, and beyond) while permanently preserving past years' archives.
-* **Analytical Dual-Line Graph**: Side-by-side comparison of Food vs. Extra spending with clean, rounded monetary Y-axis intervals (e.g. 500, 1,000, 2,500, 5,000).
-* **Vector PDF Generation**: Multi-page report generation including a yearly summary header, spending trend chart, 12-month breakdown table, and daily itemized logs.
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Expense Overview" /><br/>
-      <em>Annual Spending Overview & Breakdown</em>
-    </td>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Expense Analytics" /><br/>
-      <em>Interactive Spending Analytics & Trends</em>
+    <td width="50%" valign="top">
+      <h3>🎧 Make room for focus</h3>
+      <p>Use the built-in focus timer and included ambient soundscapes to support study, work or a quiet break.</p>
     </td>
   </tr>
 </table>
 
----
+  <br/>
 
-### 3. Digital Notes & Interactive Checklists
+  <h2>✨ Meet TrackMate</h2>
+  <p>From the first splash screen to your everyday productivity workspace.</p>
 
-A flexible, lightweight digital notebook designed for quick thought capture, work projects, and recurring checklists.
+  <img
+    src="assets/branding/splash.jpeg"
+    alt="TrackMate app splash screen"
+    width="320"
+  />
 
-* **Color-Coded Categories**: Organize thoughts across Personal, Study, Work, Ideas, Health, or custom tags.
-* **Interactive Task Mode**: Toggle standard notes into interactive checklists with one-tap completion.
-* **Pinned Notes**: Keep high-priority reminders anchored to the top of your workspace.
-* **Trash Recovery**: Restore discarded notes seamlessly via the built-in note recovery screen.
+## Features
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Notes Collection" /><br/>
-      <em>Categorized Personal Digital Notes</em>
-    </td>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Task Checklists" /><br/>
-      <em>Interactive Checklists & Action Items</em>
-    </td>
-  </tr>
-</table>
+### 1. Habit Tracker — build consistency, one day at a time
 
----
+TrackMate's habit area helps you create routines and see how consistently you follow them. Set up habits around your schedule, mark them as complete, and use the progress views to understand how you are doing.
 
-### 4. Secret Notes & Credentials Vault
+- **Daily and scheduled habits:** Set up everyday routines or choose specific days.
+- **Progress at a glance:** Review completion indicators and progress rings.
+- **Streak tracking:** Keep an eye on your current streak and personal best.
+- **Weekly and monthly reviews:** Look back at your activity, spot missed days and review your consistency.
+- **Activity and recovery:** Where available, use the activity/recycle-bin flow to review or recover deleted habit records.
 
-A dedicated, isolated vault for sensitive information that requires strict privacy and authentication.
+<div align="center">
+  <img src="assets/screenshots/habit-dashboard.jpg" alt="TrackMate habit dashboard and habit tracking screens" width="88%" />
+  <p><em>Habit dashboard, daily tracking and related progress views.</em></p>
+</div>
 
-* **4-Digit PIN Security**: Gated by a custom on-screen numeric keypad; hashed and verified entirely on-device.
-* **Change PIN Facility**: Secure workflow requiring verification of the existing PIN before updating credentials.
-* **Password Manager**: Store account identifiers, login usernames, passwords, and service URLs with single-tap clipboard copy and visibility toggles.
-* **Complete Isolation**: Vault entries are segregated from regular notes and excluded from unauthenticated views.
+### 2. Expense Tracker — understand your spending
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Vault Lock Screen" /><br/>
-      <em>PIN Security Lock Screen</em>
-    </td>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Secret Credentials Vault" /><br/>
-      <em>Encrypted Local Credentials & Vault</em>
-    </td>
-  </tr>
-</table>
+The expense tracker gives everyday spending a clear structure. TrackMate separates food spending from other expenses, helping you review routine costs as well as additional purchases.
 
----
+- **Food expenses:** Record everyday food-related spending and see the running totals.
+- **Extra expenses:** Add other purchases with details such as a title, amount and note.
+- **Monthly and yearly views:** Review records by month and move between years while keeping previous records available.
+- **Spending analytics:** Compare spending categories and review the available charts and summaries.
+- **PDF reports:** Generate a shareable, printable report from supported expense records.
 
-### 5. Date Tracker & Milestone Reminders
+<div align="center">
+  <img src="assets/screenshots/expense-tracker.jpg" alt="TrackMate expense tracker and analytics screens" width="88%" />
+  <p><em>Expense records, spending overview and analytics.</em></p>
+</div>
 
-Never miss an important life event. Track birthdays, anniversaries, and milestones with dynamic countdowns and visual alerts.
+### 3. Monthly Insights & PDF Reports — review the bigger picture
 
-* **Event Categories**: Dedicated classification for Birthdays (🎂), Anniversaries (🥂), and Milestones (📅).
-* **Dynamic Time Engine**: Automatically calculates upcoming occurrences, milestone years, or days elapsed.
-* **Celebratory Visual Hierarchy**:
-  * **Today**: Vibrant ruby-rose accent border, warm celebratory glow, and festive blush background.
-  * **Tomorrow**: Calm sky-blue accent border with soft oceanic tinting.
-* **In-App Marquee & System Alarms**: Auto-scrolling title display prevents text truncation, complemented by scheduled Android alarm notifications.
+A quick daily check-in is useful, but looking back over a full month can reveal patterns that are easy to miss. TrackMate's monthly views help you review your habit activity over a wider period.
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Date Tracker Events" /><br/>
-      <em>Upcoming Events & Milestone Badges</em>
-    </td>
-    <td align="center" width="50%">
-      <img src="assets/branding/app_icon.png" width="180" alt="Celebratory Notification" /><br/>
-      <em>Today & Tomorrow Celebratory Alerts</em>
-    </td>
-  </tr>
-</table>
+Where supported, you can also generate a PDF report to keep a separate copy of your progress or review it outside the app.
 
----
+- Review a selected month's habit activity.
+- See completion and consistency information in a broader view.
+- Generate a PDF report from the available report screen.
+- Keep a convenient record for personal review.
 
-### 6. Focus Stopwatch & Offline Ambient Audio
+<div align="center">
+  <img src="assets/screenshots/monthly-insights-pdf.jpg" alt="Monthly habit insights and generated PDF report preview" width="88%" />
+  <p><em>Monthly habit review alongside an example of the generated PDF report.</em></p>
+</div>
 
-Enhance deep work sessions with a built-in focus timer supported by native, offline ambient soundscapes.
+### 4. Notes — a simple place to save your thoughts
 
-* **Integrated Stopwatch**: Clean, non-intrusive focus timer to track study sessions and work blocks.
-* **Offline Audio Soundscapes**: 6 embedded audio environments that require zero network streaming:
-  * 🌲 *Calm Forest Nature*
-  * 🧠 *Focus Binaural 40Hz*
-  * 🍃 *Forest ASMR Break*
-  * 🧘 *Meditation Earth Resonance*
-  * 🕊️ *Overthinking Relief*
-  * 🌧️ *Rain & Thunderstorm Focus*
+Use the regular Notes area as a lightweight digital notebook for information you want to keep close at hand. It can be useful for study points, quick reminders, ideas, lists and everyday reference notes.
 
----
+- Create and save personal notes.
+- Keep information together instead of scattering it across different apps.
+- Use available note organization and editing options to manage your content.
+- Revisit saved notes whenever you need them.
 
-## Offline Architecture & Privacy First
+<div align="center">
+  <img src="assets/screenshots/notes.jpg" alt="TrackMate regular notes interface" width="72%" />
+  <p><em>Regular Notes — quick capture for everyday information.</em></p>
+</div>
 
-> [!IMPORTANT]
-> **TrackMate does not have a backend server, cloud database, or third-party tracking SDK.**
+### 5. Private Notes & Password Manager — keep selected information separate
 
-* **Local-First Storage**: All application data is persisted directly to internal device storage using hardened SharedPreferences and local key-value stores.
-* **Zero Telemetry**: No tracking identifiers, device fingerprints, or advertising beacons exist within the application.
-* **Portable Encrypted Backup**: Generate an encrypted JSON archive of all your habits, expenses, notes, and dates directly to your local file system, allowing effortless migration between devices.
+TrackMate also includes a dedicated private area protected by a PIN entry screen. This is separate from the regular Notes experience and is intended for information that users do not want mixed into their everyday notes.
 
----
+The related password manager provides a place to organize saved account details.
 
-## The Journey Behind TrackMate
+- **PIN access:** Enter the configured PIN to access the private area.
+- **Private notes:** Keep selected personal information separate from regular notes.
+- **Password manager:** Organize saved credentials and related account details.
+- **Convenient access:** Use the available visibility and copy controls where provided.
 
-TrackMate represents **4 to 6 months of dedicated personal engineering**, beginning as an academic project in Semester 6 and evolving through rigorous iterations across subsequent terms and academic breaks.
+<div align="center">
+  <img src="assets/screenshots/private-notes-password-vault.jpg" alt="TrackMate private PIN screen, private notes and password manager" width="88%" />
+  <p><em>Private-area access, secret notes and password management.</em></p>
+</div>
 
-Frustrated by fragmented mobile apps that enforce monthly subscriptions and cloud dependencies for basic productivity, TrackMate was built to provide a cohesive, aesthetic, and completely offline alternative. Every screen, animation curve, custom painter, and data model was crafted to balance responsiveness, visual elegance, and uncompromising privacy.
+> **Privacy reminder:** A PIN-protected screen is an access-control feature; it should not be treated as a guarantee that every saved item is encrypted. Use a unique device PIN and avoid storing information whose exposure could put you at risk.
 
----
+### 6. Date Tracker — remember the moments that matter
 
-## Quick Start & Installation
+Keep track of birthdays, anniversaries and other meaningful dates. The date tracker helps you see what is coming up and how far away an event is.
 
-Install the official pre-compiled Android package in a few straightforward steps:
+- Save important dates and event details.
+- Review upcoming occasions and countdowns.
+- Keep birthdays, anniversaries and personal milestones in one place.
+- Use available reminders/notifications to help you remember selected events.
 
-```markdown
-1. Navigate to the GitHub Releases page:
-   https://github.com/YOUR_USERNAME/TrackMate/releases/latest
+### 7. Focus Timer & Relaxing Audio — make space to concentrate
 
-2. Download the latest release file: app-debug.apk (or trackmate-v1.0.apk)
+When it is time to study, work or take a breather, TrackMate brings a focus timer and a selection of included ambient audio into the same app.
 
-3. Tap the downloaded APK file on your Android smartphone.
+- Use the built-in timer to structure a focus session.
+- Choose from the included ambient sound options.
+- Enjoy supported soundscapes without needing to stream them online.
 
-4. If prompted, permit your browser or file manager to install packages from this source.
+### 8. Data & Backup — keep a backup of your information
 
-5. Open TrackMate and personalize your local profile name to begin.
-```
+A backup is useful when moving to another compatible device or keeping an extra copy of important records. TrackMate includes a data and backup area for the available export and restore workflow.
+
+- Create a backup using the in-app options.
+- Keep the resulting backup file somewhere safe.
+- Use the restore option when you need to bring supported records back.
+
+<div align="center">
+  <img src="assets/screenshots/date-tracker-audio-backup.jpg" alt="TrackMate date tracker, relaxing audio and data backup screens" width="88%" />
+  <p><em>Date tracking, ambient audio and the Data & Backup area.</em></p>
+</div>
 
 ---
 
-## Technology Stack
+## Offline-first experience
 
-* **Platform**: Android (API Level 21+)
-* **Framework**: Flutter & Dart
-* **Design Philosophy**: Custom Material 3 with Poppins Typography
-* **State Management**: Reactive Provider Pattern
-* **Document Engine**: Vector-based PDF generation (`pdf` & `printing`)
-* **Audio Engine**: Embedded local asset playback (`audioplayers`)
-* **Persistence**: Local device storage (`shared_preferences`)
+TrackMate is designed to keep supported personal productivity features useful without requiring a constant internet connection.
 
----
+That means you can use the app for locally available records such as habits, expenses and notes while offline. Included ambient audio can also be played without online streaming.
 
-## Verification & Transparency
+A few things are worth keeping in mind:
 
-| Module | Verification Status | Storage Mode |
-| :--- | :---: | :--- |
-| **Habit Tracker** | ✅ Verified | 100% Local Device Storage |
-| **Expense Tracker** | ✅ Verified | 100% Local Device Storage |
-| **Expense PDF Export** | ✅ Verified | Native Device Vector Rendering |
-| **Digital Notes & Tasks** | ✅ Verified | 100% Local Device Storage |
-| **PIN Secret Notes** | ✅ Verified | 100% Local (Hashed Authentication) |
-| **Password Manager** | ✅ Verified | 100% Local Device Storage |
-| **Date Tracker** | ✅ Verified | Local SQLite / Preferences |
-| **Scheduled Alarms** | ✅ Verified | Android AlarmManager / Notifications |
-| **Ambient Soundscapes** | ✅ Verified | Embedded Offline Audio Assets |
-| **Local Backup/Restore**| ✅ Verified | Local JSON File Export |
-| **Cloud Authentication**| ❌ Excluded | Intentionally Offline-First (No Google/Firebase Auth) |
+- Offline availability depends on the feature and the data already stored on the device.
+- Notifications depend on Android permissions and device settings.
+- Backup files should be stored safely by the user; uninstalling an app or changing devices may affect locally stored data.
+- Keep a separate backup before removing the app or resetting your phone.
+
+## Quick Start — download and install
+
+1. Open the [latest TrackMate release](https://github.com/alihassanazad8245/TrackMate/releases/latest).
+2. Download the APK attached to the release.
+3. Open the downloaded APK on your Android phone.
+4. If Android asks, allow your browser or file manager to install apps from that source.
+5. Complete the installation and open TrackMate.
+
+<a href="https://github.com/alihassanazad8245/TrackMate/releases/latest">
+  <img src="https://img.shields.io/badge/GET_TRACKMATE-Download%20the%20latest%20APK-238636?style=for-the-badge&logo=android&logoColor=white" alt="Download TrackMate APK" />
+</a>
+
+## Built with
+
+TrackMate is an Android application built with **Flutter**. The app brings together its productivity tools in one mobile interface, with local storage and offline use as key design considerations.
+
+## The journey behind TrackMate
+
+TrackMate represents around **four to six months of development and ongoing refinement**. It began as a Semester 6 academic project and continued to receive attention and improvements during the following semester and available study breaks.
+
+What started as an academic project grew into a broader personal productivity app: a place to bring everyday routines, spending, notes and useful personal tools together.
+
+## Contact & project links
+
+Have a question, found an issue, or want to share feedback?
+
+- **GitHub:** [alihassanazad8245](https://github.com/alihassanazad8245)
+- **Email:** [ali8245hassan824@gmail.com](mailto:ali8245hassan824@gmail.com)
+- **Issues & feedback:** [Open an issue on GitHub](https://github.com/alihassanazad8245/TrackMate/issues)
 
 ---
 
 <div align="center">
 
-**TrackMate** — Take control of your habits, finances, and life routines.
-
-[**Download Latest Release**](https://github.com/YOUR_USERNAME/TrackMate/releases/latest) • [**Report an Issue**](https://github.com/YOUR_USERNAME/TrackMate/issues)
+  <h3>TrackMate</h3>
+  <p><strong>Build better habits. Stay organized. Keep life's details close.</strong></p>
+  <a href="https://github.com/alihassanazad8245/TrackMate/releases/latest">Download the latest APK</a>
+  <br/><br/>
+  <sub>Made with care over months of learning, building and improving.</sub>
 
 </div>
-
